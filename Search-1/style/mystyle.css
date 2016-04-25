@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    width: 100%;
+    background-color: #dfe2e6;
+}
+a{
+    text-decoration: none;
+}
+/*---------------------------------------*/
+.container_out{
+    width: 710px;
+    height: 441px;
+    margin: 100px auto;
+    background-color: #f0f3f8;
+}
+/*-----*/
+.container_out .nav{
+    width: 100%;
+    height: 34px;
+    padding-top: 40px;
+/*    background-color: blueviolet;*/
+}
+/*-----*/
+.container_out .nav .logo{
+    margin-left: 52px;
+    float: left;
+}
+/*-----*/
+.container_out .nav .link{
+    float: right;
+    margin-right: 52px;
+}
+.container_out .nav .link ul{
+    list-style-type: none;
+}
+.container_out .nav .link ul li{
+    display: inline-block;
+    line-height: 34px;
+    margin-left: 22px;
+}
+.container_out .nav .link ul li a{
+    color: #767998;
+    font-weight: bold;
+}
+.container_out .nav .link ul li a:hover{
+    color: #e3c521;
+}
+/*-----*/
+.container_out .topic{
+    width: 100%;
+    margin: 53px auto;
+    padding-top: 45px;
+}
+.container_out .topic hgroup{
+    text-align: center;
+}
+.container_out .topic hgroup h3{
+    font-size: 40px;
+    color: #8a8da7;
+}
+.container_out .topic hgroup h6{
+    font-size: 14px;
+    color: #c7c8ca;
+}
+/*-----*/
+.container_out .Search{
+    width: 100%;
+}
+.container_out .Search form{
+    height: 48px;
+    text-align: center;
+}
+.container_out .Search input{
+    width: 400px;
+    height: 48px;
+    font-size: 22px;
+    border-radius: 20px;
+    background-color: #e6e7e9;
+/*
+    padding-left: 30px;
+    background-image: url("../images/search-icon.jpg") no-repeat;
+    background-size: 100%;
+*/
+}
+.container_out .Search button{
+    width: 100px;
+    height: 48px;
+    border-radius: 20px;
+    margin-left: 17px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5d574a;
+    background-color: #e3c521;
+    cursor: pointer;
+}
+.container_out .Search button:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
